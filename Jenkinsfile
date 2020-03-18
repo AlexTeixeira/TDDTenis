@@ -1,12 +1,9 @@
 pipeline {
-  agent none
+  agent any
   stages {
     stage('Build') {
       steps {
-        withGradle() {
-          sh './gradlew build'
-        }
-
+        echo 'Working'
       }
     }
 
