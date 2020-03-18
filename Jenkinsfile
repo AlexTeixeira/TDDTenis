@@ -3,11 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Working'
-        withGradle() {
-          sh './gradlew build'
-        }
-
+        sh './gradlew build'
       }
     }
 
