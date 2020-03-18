@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-03-13T16:45:05" hostname="MacbookAlex.local" time="0.022">
+  <properties/>
+  <testcase name="GameTest_GetGameWinner_With3Set_ShouldBePlayer1" classname="GameTest" time="0.005"/>
+  <testcase name="GameTest_GetGameWinner_With3Set_ShouldBePlayer2" classname="GameTest" time="0.001"/>
+  <testcase name="GameTest_Init_ShouldHaveOneDefaultSetInSetList" classname="GameTest" time="0.0"/>
+  <testcase name="GameTest_GetGameWinner_ShouldBeNoBody" classname="GameTest" time="0.004"/>
+  <testcase name="GameTest_OneSetWin_ShouldCreateNewSet" classname="GameTest" time="0.001"/>
+  <testcase name="GameTest_GetGameWinner_ShouldBePlayer1" classname="GameTest" time="0.0"/>
+  <testcase name="GameTest_GetGameWinner_ShouldBePlayer2" classname="GameTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
