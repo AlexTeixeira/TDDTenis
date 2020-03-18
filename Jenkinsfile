@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         tool 'Gradle6'
-        sh ' gradle wrapper'
+        sh ' ./gradlew wrapper'
         sh './gradlew build'
       }
     }
