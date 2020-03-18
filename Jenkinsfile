@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        tool(name: 'Gradle', type: 'Gradle')
+        tool 'Gradle6'
         sh '  sh \'gradle build --info\''
       }
     }
