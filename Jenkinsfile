@@ -3,8 +3,13 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        tool 'Gradle6'
         sh ' ./gradlew tasks'
+      }
+    }
+
+    stage('Test') {
+      steps {
+        sh './gradlew test'
       }
     }
 
