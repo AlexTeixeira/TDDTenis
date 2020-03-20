@@ -4,6 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         sh ' ./gradlew tasks'
+        echo 'Build complete'
       }
     }
 
